@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    text-transform:uppercase;
+    background: radial-gradient(rgb(172, 41, 41),black);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#nav{
+    
+    display: flex;
+    gap: 30px;
+    
+    color: white;
+    justify-content:space-between ;
+    padding: 20px 50px;
+}
+#navpart2{
+    
+    display: flex;
+    gap: 30px;
+    
+}
+#text{
+    margin-right: 10%;
+    text-align: center;
+    line-height: 180px;
+    font-size: 80px;
+    color: rgb(250, 245, 245);
+    padding: 170px;
+    position:relative;
+    z-index: 9;
+    text-shadow:1px 3px 8px;
+    
+    
+    
+
+    
+}
+#nav3{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 50px;
+    color: white;
+}
+#nav4{
+    
+    display: flex;
+    gap: 30px;
+    font-size 20px;;
+
+  
+}
+#text h1:nth-child(2){
+    
+    margin-left: 30%;
+}
+#text h1:nth-child(3){
+    
+    margin-left: 30%;
+}
+
+#main img{
+    height: 650px;
+    position: absolute;
+    top: 15%;
+    width: 450px;
+    object-fit: cover;
+    left: 40%;
+    gap: 30px;
+    
+}
+#img1{
+    rotate: 18deg;
+}
+#img2{
+    rotate: 36deg;
+}
+#img3{
+    rotate: 54deg;
+}
